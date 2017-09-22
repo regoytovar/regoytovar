@@ -4,4 +4,4 @@ This is my personal webpage.
 
 ## Preview
 
-[![Creative Preview](/img/preview.jpg)]
+![Preview](/img/preview.jpg "regoytovar-preview")
