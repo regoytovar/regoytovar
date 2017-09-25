@@ -7,3 +7,15 @@ var typed = new Typed('#type-header',{
     loop: true,
     backDelay: 800
 })
+
+$(window).scroll(function() {
+	if ($("#mainNav").offset().top > 100) {
+		$("#navbar-logo").addClass("scroll-logo");
+	} else {
+		$("#navbar-logo").removeClass("scroll-logo");
+	}
+});
+
+  $('.js-scroll-trigger').click(function() {
+    $("#navbar-logo").addClass("scroll-logo");
+  });

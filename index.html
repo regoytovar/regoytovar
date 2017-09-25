@@ -12,7 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
+    
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -35,7 +35,7 @@
       <div class="container">
         <div>
           <a class="navbar-brand" href="#page-top">
-            <img src="designevo/header-logo-white.png" width="180" alt="">
+            <img id="navbar-logo" src="designevo/header-logo-white.png" width="180" alt="">
           </a>
           <!--
           <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
@@ -47,14 +47,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
+            -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -77,7 +79,7 @@
           </h1>
           <hr>
           <p id="slogan">thinking, reading, collecting, designing, editing, writing, <br> making a playing around to make the Internet —most— awesome.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn more</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">More about me</a>
         </div>
       </div>
     </header>
@@ -86,10 +88,26 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white" id="about-title">HELLO, WORLD! <span class="blink">|</span></h2>
             <hr class="light">
-            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded" class="about-p">
+            
+              ¡Hola, mundo! Exactamente son esas las palabras que uso cuando comienzo a crear nuevos sitios. Sí, pues como desarrollador Front-End, cada día me siento frente a mi escritorio, tomo un sorbo de café y, únicamente limitado por mi imaginación, habilidad y creatividad, comienzo a crear y transformar páginas en blanco en nuevos mundos, abriendo infinitas posibilidades.
+            </p>
+              
+              <div class="pic-container">
+	              <img src="img/cover.jpg" alt="Yoger Tovar" class="profile-pic">
+              </div>
+            
+            <p class="text-faded" class="about-p">  
+              Tengo veintitrés años, soy de Venezuela, mis únicos vicios son programar y el buen café; desde los diecisiete me he mantenido aprendiendo día a día, creando sitios web bonitos y funcionales para pequeñas empresas, desarrollando una enorme pasión por los problemas grandes y audaces, y un amor indescriptible por las ideas geniales, los proyectos con grandes propósitos, y las animaciones CSS.
+            
+              <br><br>
+
+              Mientras no estoy programando me encanta escribir, diseñar, aprender y crear grandes y hermosos momentos junto a quienes amo, siempre enfocado en mejorar cada día. Honestamente, soy feliz lo que hago y haré lo que sea necesario para seguir creciendo en esta asombrosa carrera.
+            
+            </p>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">What I can do</a>
           </div>
         </div>
       </div>
@@ -99,7 +117,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading" id="services-title">Services I provide</h2>
             <hr class="primary">
           </div>
         </div>
@@ -108,36 +126,50 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+              <i class="fa fa-4x fa-lightbulb-o text-primary sr-icons"></i>
+              <h3>Ideas</h3>
+              <p class="text-muted">I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all, as Castelao said, "True heroism is transforming desires into realities and ideas into deeds".</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Ready to Ship</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+              <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+              <h3>Code</h3>
+              <p class="text-muted">I design in the browser with HTML5, the powerful CSS3 and a touch of JavaScript, specifically whit jQuery. I love coding things from scratch, but I can work with front-end frameworks like Bootstrap too.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-              <h3>Up to Date</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
+              <i class="fa fa-4x fa-mobile text-primary sr-icons"></i>
+              <h3>Responsive</h3>
+              <p class="text-muted">Having a responsive layout means that your website fluidly resizes for optimal viewing regardless of the screen size or device (e.g. iPhone, iPad).</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-              <h3>Made with Love</h3>
-              <p class="text-muted">You have to make your websites with love these days!</p>
+              <i class="fa fa-4x fa-thumbs-o-up text-primary sr-icons"></i>
+              <h3>Social media</h3>
+              <p class="text-muted">It's important to keep your brand consistent and recognizable across all platforms. Social media is an increasingly important tactic in companies’ marketing strategy.</p>
             </div>
           </div>
         </div>
       </div>
+
+      <hr class="primary">
+
+      <p class="text-faded-black most-services">
+      	While most of my attention is on developing websites, I create other wonderful things from time to time. This includes logo design, content writing, Excel templates, and some newsletter.
+      </p>
+
+      <hr class="primary">
+      <div class="work">	
+	      <h2><span class="change-color">Want </span>to <span class="change-color">work </span> <span class="change-tall">together?</span></h2>
+	      <p>I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
+	      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">More about me</a>
+      </div>
     </section>
 
+    <!--
     <section class="p-0" id="portfolio">
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
@@ -241,6 +273,7 @@
         <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
     </div>
+    -->
 
     <section id="contact">
       <div class="container">
@@ -275,6 +308,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/text-rotator/js/jquery.simple-text-rotator.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
