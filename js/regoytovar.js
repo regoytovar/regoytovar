@@ -5,7 +5,7 @@ var typed = new Typed('#type-header',{
 	],
     typeSpeed: 75,
     loop: true,
-    backDelay: 800
+    backDelay: 1000
 })
 
 $(window).scroll(function() {

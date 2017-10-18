@@ -62,6 +62,30 @@
     -webkit-transition:color .5s ease-out;
 }
 
+.center-social {
+	text-align: center;
+}
+
+.social-networks {
+	overflow: auto;
+	margin-left: -20px;
+}
+
+.social-networks li {
+	list-style: none;
+	display: inline;
+}
+
+.social-networks li a i {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 5%;
+}
+
 @media (max-width: 991px) {
 	#navbar-logo{
 		content: url("../designevo/header-logo-grey.png");
@@ -119,6 +143,14 @@
 	font-weight: 700;
 }
 
+#contact-title {
+	color: rgba(34, 34, 34, 0.85);
+	font-family: 'Open Sans', 'verdana';
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+}
+
 .text-muted {
 	font-family: 'Open Sans', 'verdana';
 }
@@ -130,9 +162,9 @@
 }
 .service-box:hover h3 {
 
-	-webkit-transform: scale(1.3) rotateZ(-10deg);
-    -ms-transform: scale(1.3) rotateZ(-10deg);
-    transform: scale(1.3) rotateZ(-10deg);
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 
@@ -152,4 +184,20 @@
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-timing-function:ease-in-out;
 	-webkit-animation-direction: alternate;
+}
+
+.facebook-icon:hover {
+	color: #2660bf;
+}
+.linkedin-icon:hover {
+	color: #3276e5;
+}
+.twitter-icon:hover {
+	color: #5494ff;
+}
+.google-plus-icon:hover {
+	color: #d82d2d;
+}
+.github-icon:hover {
+	color: #352f2f;
 }
